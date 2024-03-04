@@ -4,10 +4,12 @@
   grid-template-columns: 1fr min-content 1fr;
   grid-template-rows: 1fr;
   color: #000;
+  border: 1px solid black;
+  max-height: 286px;
 }
 
 .header__menu {
-  padding: 49px 36px 39px 26px;
+  padding: 38px 36px 39px 26px;
 }
 
 .header__links-list {
@@ -38,7 +40,9 @@
 }
 
 .header__logo {
-  padding-top: 4px;
+ height: 98px;
+ display: flex;
+ align-items: center;
 }   
 
 .header__logo-image {
@@ -54,7 +58,7 @@
 }
 
 .header__address {
-  padding: 14px 62px 2px 184px;
+  padding: 3px 62px 2px 184px;
 }
 
 .address-line {
