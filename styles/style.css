@@ -1,6 +1,6 @@
 
 .header {
-  padding: 92px 24px 96px; 
+  padding: 92px 24px 96px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   grid-template-rows: 1fr;
@@ -127,7 +127,7 @@
 }
 
 .letter-spacing-extended {
-  letter-spacing: 0.5em;  
+  letter-spacing: 0.5em;
 }
 
 .no-letter-spacing {
